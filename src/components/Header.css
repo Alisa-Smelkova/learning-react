@@ -19,6 +19,8 @@
     font-weight: 600;
 }
 
+
+
 .Header button {
     padding: 8px 20px;
     font-size: 20px;
@@ -28,6 +30,14 @@
     border-radius: 8px;
     outline: none;
     cursor: pointer;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+    
+}
+
+.Header button:hover {
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-3px);
 }
 
 @media (max-width: 640px) {
