@@ -35,11 +35,27 @@ const IndexPage = () => (
     </div>
     <div className="Cards">
       <h2>Big title for cards components</h2>
-      <Card 
-        title="Wow-wow I can change component with props!"
-        text="And this too!"
-        image={require('../images/wallpaper.png')}
-      />
+      <div className="CardGroup">
+        <Card 
+          title="Wow-wow I can change component with props!"
+          text="And this too!"
+          image={require('../images/1.png')} />
+
+        <Card 
+          title="And this is reusable!"
+          text="Impressive!"
+          image={require('../images/2.png')} />
+
+        <Card 
+          title="Today life became easier!"
+          text="Simple text!"
+          image={require('../images/3.png')} />
+
+        <Card 
+          title="Lazy to change it!"
+          text="Origato!"
+          image={require('../images/4.png')} />
+      </div>
     </div>
   </div>
 )
